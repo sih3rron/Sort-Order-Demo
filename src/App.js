@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { hot } from 'react-hot-loader';
 import { withLDProvider } from 'launchdarkly-react-client-sdk';
-import Card from './Card';
+import Card from './Card';  
+
+require('dotenv').config();
 
 class App extends Component {
     render() {
@@ -14,10 +16,10 @@ class App extends Component {
 }
 
 export default withLDProvider({
-    clientSideID: process.env.CLIENT_SIDE_ID,
+    clientSideID: "5d4783b7b5c51906f0768c14",
     user:{
     //key: "user" + Math.floor(Math.random() * 90000000) + 10000,
-    key: process.env.KEY,
+    key: "sherron@launchdarkly.com",
     firstName: "Simon",
     lastName: "Herron",
     country: "UK",

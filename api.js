@@ -1,6 +1,7 @@
 const LaunchDarkly = require('launchdarkly-node-server-sdk');
 const express = require('express');
 const app = express();
+require('dotenv').config();
 
 app.use(function (req, res, next) {
     res.header("Access-Control-Allow-Origin", "http://localhost:3000"); // update to match the domain you will make the request from

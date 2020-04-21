@@ -1,10 +1,3 @@
-I intended this to be a Minimum Viable Prototype that I will refine over time. Please feel free to provide feedback and request constructive changes that will save us time long term.
-
-
-
-------
-
-
 # Experiment-Sort-Order-Demo
 These are the steps and code needed to create your own product Sort-Order demo
 
@@ -100,4 +93,3 @@ This is deliberately set so you can make the initial delineation between our 're
 
 Whenever you're ready, hit the go button on your Feature Experiment!!
 
--------
