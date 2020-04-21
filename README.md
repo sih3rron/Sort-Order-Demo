@@ -1,3 +1,10 @@
+I intended this to be a Minimum Viable Prototype that I will refine over time. Please feel free to provide feedback and request constructive changes that will save us time long term.
+
+
+
+------
+
+
 # Experiment-Sort-Order-Demo
 These are the steps and code needed to create your own product Sort-Order demo
 
@@ -19,11 +26,13 @@ Good examples are:
 - [Ford Showroom](https://shop.ford.com/showroom/?gnav=header-shop&linktype=build#/)
 
 
-2. Open your browsers _developer console_ and use the `productData.js` script to select the fields you want added to your JSON Object. You will need to adjust the Element selectors for each statement, thus overwrite: `<< element selector for xxxx >>`
+2. Open your browsers _developer console_ and use the `./Console Scripts/productData.js` script to select the fields you want added to your JSON Object. You will need to adjust the Element selectors for each statement, thus overwrite: `<< element selector for xxxx >>`
 
 3. If successful, you will have an array of objects output to the Console. 
 
 > **Pro-Tip**: Check the first and last 5 records to ensure that your data has been passed into the array consistently.
+
+4. I have have created some JSON files that can be used, or just referenced, in the `./JSON Files` directory.
 
 ### Sorting the JSON Arrays for use in your Variations ###
 
@@ -66,11 +75,29 @@ clone or download this repo to the `sortorder` folder.
 
 Run `npm install`
 
-In order to start the API you should run the cmd: `node server`. 
+In order to start the API you should run the cmd: `node api`. 
 - This will run the API locally on localhost:8080/api
 
 To run the React App you should run the cmd: `npx webpack-dev-server --mode development`. 
 - This will run the app on localhost:3000.
 
-Before you start
+Before you start your experiment you will see a default JSON scheme of a single record that looks like this:
 
+```
+[
+    {
+        id: 22,
+        image: "https://via.placeholder.com/256.png/0000FF",
+        name: "This is your default.",
+        size: '256 x 256',
+        price: "14.99"
+    }
+];
+
+```
+
+This is deliberately set so you can make the initial delineation between our 'real' data and the default.
+
+Whenever you're ready, hit the go button on your Feature Experiment!!
+
+-------
