@@ -6,12 +6,11 @@ body {
   color: #333;
   text-align: left;
   background-color: #fff;
-  //width: 80%;
   margin: 0 auto;
 }
 
 li {
-  display: inline-block;
+  display: block;
   max-width: 300px;
   float: left;
 }

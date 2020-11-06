@@ -1,0 +1,15 @@
+{
+    "presets": [
+        "@babel/preset-env",
+        "@babel/preset-react"
+    ],
+    "plugins": [
+        "@babel/plugin-syntax-jsx",
+        "react-hot-loader/babel",
+        ["@babel/plugin-transform-runtime",
+            {
+              "regenerator": true
+            }
+          ]
+    ]
+}

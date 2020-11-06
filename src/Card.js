@@ -2,7 +2,6 @@ import React from 'react';
 import { withLDConsumer } from 'launchdarkly-react-client-sdk';
 import Footer from './Footer';
 import './App.css';
-require('dotenv').config();
 
 class Card extends React.Component {
     constructor(props){
