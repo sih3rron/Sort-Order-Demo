@@ -67,7 +67,7 @@ li {
   border-radius: 0;
   font-family: "alternate_gothic_fsno_2", Arial Narrow, Helvetica, Arial,
     sans-serif;
-  font-size: 13px;
+  font-size: 12px;
   padding: 5px 12px;
   text-transform: uppercase;
   width: 100%;
@@ -78,10 +78,12 @@ li {
   color: #fff;
   background-color: #789e37;
   border-color: #789e37;
+  min-height: 35px;
 }
 
 .btn-secondary {
   color: #fff;
   background-color: #1893cc;
   border-color: #1893cc;
+  min-height: 35px;
 }
