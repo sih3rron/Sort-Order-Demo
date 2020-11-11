@@ -15,7 +15,7 @@ app.get("/api", (req, res, next) => {
     const ldclient = LaunchDarkly.init("sdk-7546b7a3-14eb-4664-a38c-4ffd0f796818");
 
     var user = {
-        key: "sherron+test3@launchdarkly.com",
+        key: "sherron+test20@launchdarkly.com",
         firstName: "Simon",
         lastName: "Herron",
         country: "UK",
